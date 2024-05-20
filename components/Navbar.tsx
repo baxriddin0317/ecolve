@@ -31,7 +31,7 @@ function Navbar({ className }: { className?: string }) {
         <Link className="text-white font-bold text-lg" href={'/'}>
           Logo
         </Link>
-        <div className={`w-full flex-1 relative flex items-center justify-center gap-4 ${fixed ? '' : 'bg-white/10'} px-8 rounded-full transition-all duration-300 ease-linear`}>
+        <div className={`relative flex items-center justify-center gap-4 ${fixed ? '' : 'bg-white/10'} px-8 rounded-full transition-all duration-300 ease-linear`}>
           <Menu setActive={setActive}>
             <MenuItem setActive={setActive} active={active} item="Services">
               <div className="flex flex-col space-y-4 text-sm">

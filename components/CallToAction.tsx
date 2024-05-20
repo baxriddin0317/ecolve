@@ -5,7 +5,7 @@ export const CallToAction = () => {
   return (
     <section className='max-w-8xl mx-auto grid grid-cols-2 gap-10 lg:gap-20 items-center px-4 py-28'>
       <div className='relative'>
-        <div className="absolute bottom-0 right-0 size-72 bg-black blur-3xl -z-10" />
+        <div className="absolute bottom-16 right-16 size-80 bg-black blur-3xl -z-10" />
         <div className="absolute bottom-0 right-0 size-96 bg-gradient-to-r from-blue-500 to-teal-500 transform scale-[0.80] bg-red-500 rounded-full blur-3xl -z-20"/>
         <h2 className='text-2xl md:text-4xl bg-clip-text text-transparent bg-gradient-to-b from-neutral-200 to-neutral-600 font-bold'>
           Show Sample Task Defination
